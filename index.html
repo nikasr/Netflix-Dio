@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl.theme.default.min.css">
+
+    <!--responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <title>NETFLIX CLONE</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <p><img class="logo" src="img\logo.JPG" alt="NETFLIX" ></p>
+            <nav>
+                <a href="#">Início</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="filme-principal">
+            <div class="container" id="container">
+                <h3 class="titulo">VIKINGS</h3>
+                <div classe="descricao" id="descricao" >
+                    Ragnar Lothbrok, um jovem que se considera descendente de Odin, 
+                    é um guerreiro, fazendeiro e chefe de família. Visionário e 
+                    sonhando viver diversas aventuras, ele acredita que as riquezas 
+                    sonhadas por seu povo encontram-se além do mar Báltico. Mas para 
+                    conseguir conquistá-las ele precisa convencer Earl Haraldson, 
+                    o líder de seu povo, a permitir que ele e seus guerreiros viagem 
+                    em direção à Inglaterra.
+                </div>
+                
+                <div class="botoes">
+                    <button role="button" class="botao" onclick="assistir()"> 
+                        <i class="fas fa-play"></i> 
+                        ASSISTIR AGORA
+                    </button>
+                    <button role="button" class="botao" onclick="info(this.informacoes)">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+                
+            </div>
+        </div>
+    </main>
+
+    <div class="carrosel-flmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="img/filme1.jpg" alt="November man">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/filme2.jpg" alt="November man">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/filme3.jpg" alt="November man">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/filme4.jpg" alt="November man">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/filme5.jpg" alt="November man">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/filme6.jpg" alt="November man">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/filme7.jpg" alt="November man">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/filme8.jpg" alt="November man">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/filme9.jpg" alt="November man">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/filme10.jpg" alt="November man">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/a75ca08532.js" crossorigin="anonymous"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
+
