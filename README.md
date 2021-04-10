@@ -1,2 +1,5 @@
 # Netflix-Dio
-Clone da página principal do Netflix utilizando HTML5, CSS3 e Javascript
+
+Projeto com o objetivo de recriar a interface do Netflix utilizando tecnologias HTML5, CSS3 e JavaScript. Em minha versão acrescentei eventos de click dos botões.
+
+
